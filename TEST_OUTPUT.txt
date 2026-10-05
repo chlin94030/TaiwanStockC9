@@ -1,0 +1,11 @@
+PASS test_config_weights
+PASS test_entry_separation
+PASS test_regime_only_changes_position
+PASS test_time_matured_intraday_weight
+PASS test_limit_up_can_rank_high_but_not_be_buyable
+PASS test_offline_single_stock_pipeline
+PASS test_utf8_ui_strings_are_clean
+PASS test_offline_run_scan_regime_does_not_rank
+PASS test_shared_feature_engine_matches_legacy_calls
+BENCH shared_features=0.2145s separate_3x=0.3104s speedup=1.45x
+ALL TESTS PASSED | v16.3.0-architecture-freeze
